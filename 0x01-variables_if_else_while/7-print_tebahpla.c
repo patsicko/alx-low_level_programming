@@ -2,7 +2,7 @@
 /**
  * main - print all letters in reverse
  *
- * REturn: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
