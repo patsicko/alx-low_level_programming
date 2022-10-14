@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: print small letters
+ * Description: print small letters.
  *
  * Return: Always O (Success)
  */
