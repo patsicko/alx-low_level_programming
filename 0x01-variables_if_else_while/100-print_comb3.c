@@ -1,28 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Prints all possible combinations of two different digits,
- *
- * Return: Always 0.
+ * main - Prints the digits of the decimal number system using putchar
+ * Return: 0 when code executes succesfully
  */
 int main(void)
 {
-	int digit1, digit2;
+	int a, b;
 
-	for (digit1 = 0; digit1 < 9; digit1++)
+	for (a = 0; a < 10; a++)
 	{
-		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-			putchar((digit1 % 10) + '0');
-			putchar((digit2 % 10) + '0');
+		for (b = 0; b < 10; b++)
+		{
+			
+			putchar(a + '0');
+			putchar(b + '0');
+			if (a == 9 && b == 9)
+			{
+				break;
+			}
 
-			if (digit1 == 8 && digit2 == 9)
-				continue;
-
-			putchar(',');
-			putchar(' ');
+				putchar(',');
+				putchar(' ');
+		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
