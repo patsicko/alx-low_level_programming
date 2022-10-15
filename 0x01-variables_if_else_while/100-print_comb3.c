@@ -14,7 +14,11 @@ int main(void)
 		{
 			putchar((a % 10) + '0');
 			putchar((b % 10) + '0');
-
+			
+			if (a == 8 && b == 9)
+			{
+				break;
+			}
 				putchar(',');
 				putchar(' ');
 		}
