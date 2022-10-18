@@ -2,8 +2,11 @@
 /**
  * void print_alphabet_x10 - entry point
  *
- * Description:void print_alphabet_x10(void);
+ * Description:void print_alphabet_x10(void)
+ *
+ * Return: Always 0 (success .)
  */
+ 
 void print_alphabet_x10(void)
 {
 	char ch;
