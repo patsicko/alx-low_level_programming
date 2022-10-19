@@ -3,7 +3,7 @@
 /**
  * main - tests function that prints if 0 is positive
  *
- * Rturn: Always 0.
+ * Return: Always 0.
  */
 
 int main(void)
